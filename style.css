@@ -1,0 +1,547 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(3,5,14);
+  background: linear-gradient(90deg, rgba(3,5,14,1) 0%, rgba(18,21,29,1) 100%); 
+}  
+
+img{
+  width: 100%;
+}
+
+h1,h2,h3,h4,a{
+  font-family: 'Montserrat', sans-serif;
+  color: #E3B266;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #FFF4E3;
+}
+
+.container-personal{
+  width: 85%;
+  margin: 0px auto;
+} 
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+
+.head{   /*inizio head*/
+  background: url(img/background-headline.webp) no-repeat center center;
+  background-size: cover;
+  padding: 250px 0;
+}
+
+.div-p-head-mobile{
+  display: none;
+}
+
+.div-p-head{
+  width: 35%;
+  margin-bottom: 60px;
+}
+
+.h1-head{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.p-head{
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.pulsante-head{
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border: solid #E3B266;
+  text-decoration: none;
+  color: #FFF4E3;
+  transition: all 0.5s;
+}
+
+.pulsante-head:hover{ /*fine head*/
+  background-color: #E3B266;
+  color: rgb(3,5,14);;
+  transition: all 0.5s;
+}
+
+
+
+
+
+.grid-lampade{ /*inizio collezione*/
+  display: flex;
+  gap: 100px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 50px;
+  padding-left: 5%;
+}
+
+.container-collezione{
+  width: 100%;
+}
+
+.div-lampade{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.h4-collezione{
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.img-lampade{
+  margin-bottom: 30px;
+  width: 200px;
+}
+
+.collezione{
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.bottone-indietro{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  color: #2C2E33;
+  border: none;
+  background: none;
+}
+
+.bottone-avanti{
+  background: none;
+  border: none;
+  color: #2C2E33;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+}
+
+.pulsante-collezione:hover{
+  transition: all 0.5s;
+  background-color: #E3B266;
+  color: rgb(3,5,14);;
+}
+
+.pulsante-collezione{ 
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border: solid #E3B266;
+  text-decoration: none;
+  color: #FFF4E3;
+  transition: all 0.5s;
+}
+
+ /* Nascondi scrollbar per Chrome, Safari, Opera, IE, Edge e Firefox*/
+ .grid-lampade::-webkit-scrollbar {
+  display: none; /* Chrome, Safarie Opera */
+}
+
+.grid-lampade { /*fine collezione*/
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
+
+
+
+
+
+.manutenzione{   /*inizio manutenzione*/
+  background: url(img/background-manutenzione.webp) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.div-p-manutenzione-mobile{
+  display: none;
+}
+
+.div-manutenzione{
+  display: grid;
+  place-items: end;
+}
+
+.contenuto-manutenzione{
+  width: 45%;
+}
+
+
+.div-p-manutenzione{
+  margin-bottom: 60px;
+}
+
+.h2-manutenzione{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.p-manutenzione{
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.pulsante-manutenzione{
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border: solid #E3B266;
+  text-decoration: none;
+  color: #FFF4E3;
+  transition: all 0.5s;
+}
+
+.pulsante-manutenzione:hover{ /*fine manutenzione*/
+  background-color: #E3B266;
+  color: rgb(3,5,14);;
+  transition: all 0.5s;
+}
+
+
+
+
+
+.h2-artigiani{ /*inizio artigiani*/
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.artigiani{
+  display: grid;
+  place-items: center;
+  padding: 100px 0;
+}
+
+.grid-artigiani{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  margin-bottom: 50px;
+}
+
+.card-artigiani{
+  text-align: center;
+}
+
+.img-artigiani{
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.h4-artigiani{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.p-artigiani{
+    font-size: 1.2rem;
+}
+
+.pulsante-artigiani{
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border: solid #E3B266;
+  text-decoration: none;
+  color: #FFF4E3;
+  transition: all 0.5s;
+}
+
+.pulsante-artigiani:hover{ /*fine artigiani*/
+  background-color: #E3B266;
+  color: rgb(3,5,14);;
+  transition: all 0.5s;
+}
+
+
+
+
+
+.video{ /*inizio intervisata*/
+  width: 80%;
+}
+
+.intervista{
+  display: grid;
+  place-items: center;
+  padding:0 0 50px 0;
+}
+
+.video-mobile{
+  display: none;
+}
+
+.h2-intervista{ /*fine intervisata*/
+  margin-bottom: 50px;
+      font-size: 3rem;
+    text-align: center;
+}
+
+
+
+
+.icona-contattaci{ /*inizio contattaci*/
+  width: 100px;
+}
+
+.contattateci{
+  padding: 50px 0;
+}
+
+.h2-contattaci{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.b-contattaci{
+  font-size: 2rem;
+}
+
+.allinea-contattaci{
+  display: grid;
+  place-items: center;
+  gap: -200px
+}
+.grid-contattaci{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  width: auto;
+}
+
+
+
+@media (max-width: 1000px){ /*media SOLO per card artigiani*/
+  .grid-artigiani{
+    display: grid;
+    grid-template-columns:1fr; 
+    margin-bottom: 160px;
+    place-items: center;
+  }  
+  
+  .card-artigiani{
+    width: 330px;
+  }
+
+}
+
+
+
+@media (max-width: 500px){
+  
+  .head{ /*inizio head*/
+    background: url(img/background-headline-mobile.webp) no-repeat center center;
+    background-size: cover;
+    padding-top: 50vh;
+    padding-bottom: 50px;
+  }
+
+  .div-head{
+    display: grid;
+    text-align: center;
+    place-items: center;
+  }
+
+  .div-p-head-mobile{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .div-p-head{
+    display: none;
+  }
+
+  .pulsante-head{
+    width: 100%;
+  }
+
+  .h1-head{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+
+  .p-head-mobile{ /*fine head*/
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+
+
+  .pulsante-collezione{ /*inizio collezione*/
+    width: 100%;
+    display: block;
+  }
+
+  .grid-lampade{ 
+    display: flex;
+    padding-left: 25%;
+    gap: 0px;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 50px;
+  }
+
+  .collezione{
+    padding: 50px 0;
+  }
+
+  .bottone-indietro{
+    top: 150px;
+    left: 15px;
+  }
+  
+  .bottone-avanti{ /*fine collezione*/
+    top: 150px;
+    right: 15px;
+  }
+
+
+
+  .manutenzione{ /*inizio manutenzione*/
+    background: url(img/background-mobile-manutenzione.webp) no-repeat center center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .div-manutenzione{
+    display: grid;
+    text-align: left;
+    place-items: center;
+  }
+
+  .div-p-manutenzione-mobile{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .div-p-manutenzione{
+    display: none;
+  }
+
+  .pulsante-manutenzione{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .h2-manutenzione{
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .p-manutenzione-mobile{ 
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    line-height: 1.6rem;
+  }
+
+  .p-manutenzione-mobile2{
+    font-size: 1.1rem;
+    margin-bottom: 150px;
+    line-height: 1.6rem;
+  }
+
+  .contenuto-manutenzione{
+    width: 100%;
+  }
+
+  .b-manutenzione{ /*fine manutenzione*/
+    font-size: 1.5rem;
+  }
+
+
+
+
+.h2-artigiani{ /*inizio artigiani*/
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+.grid-artigiani{
+  display: grid;
+  grid-template-columns:1fr;
+  margin-bottom: 160px;
+}   
+
+.artigiani{
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+.img-artigiani{
+  width: 80%;
+}
+
+.h4-artigiani{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.p-artigiani{
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.pulsante-artigiani{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border: solid #E3B266;
+  text-decoration: none;
+  color: #FFF4E3;
+  transition: all 0.5s;
+}
+
+.pulsante-artigiani:hover{ /*fine artigiani*/
+  background-color: #E3B266;
+  color: rgb(3,5,14);;
+  transition: all 0.5s;
+}
+
+
+
+
+.video{
+  display: none;
+}
+
+.video-mobile{
+  display:grid ;
+  width: 80%;
+}
+
+.h2-intervista{
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+}
+
+
